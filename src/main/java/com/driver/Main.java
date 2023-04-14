@@ -5,8 +5,6 @@ public class Main {
 
     B obj = new B();
     obj.meth();
-
-
   }
 }
 class A {
@@ -16,8 +14,5 @@ class A {
   }
 }
 class B extends A{
-  public void meth(){
-    System.out.println("Method is overridden in Extended class B");
 
-  }
 }
