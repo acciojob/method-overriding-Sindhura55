@@ -8,14 +8,14 @@ public class Main {
 
   }
 
-  static class A {
+  public static class A {
     public static void meth() {
 
       System.out.println("Invoking method from class A");
     }
   }
 
-  static class B extends A {
+ public  static class B extends A {
     public static void meth() {
       System.out.println("Method is overridden in Extendend class B");
     }
