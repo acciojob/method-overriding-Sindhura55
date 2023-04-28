@@ -5,20 +5,20 @@ public class Main {
 
     B obj= new B();
     obj.meth();
-    B obj1=new B();
-    obj1.meth();
+
 
   }
 
    public static class A {
-    public static String meth()
+    public  String meth()
     {
-      return "Invoking method from class A";
+        return "Invoking method from class A";
     }
   }
 
  public static class B extends A {
-    public static String meth()
+      @Override
+    public String meth()
     {
         return "Method is overridden in Extendend class B";
     }
